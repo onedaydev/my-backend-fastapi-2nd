@@ -1,0 +1,6 @@
+- Create
+- Read
+- File Upload
+- Category(Use Enum)
+- 정적 파일 마운트 https://fastapi.tiangolo.com/ko/tutorial/static-files/
+- 

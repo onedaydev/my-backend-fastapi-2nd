@@ -11,3 +11,9 @@ engine = create_engine(
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 Base = declarative_base()
+
+naming_convention = {
+}
+
+# Base.metadata = MetaData(naming_convention=naming_convention)
+
