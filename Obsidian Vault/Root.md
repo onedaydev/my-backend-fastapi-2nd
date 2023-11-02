@@ -2,6 +2,8 @@
 - [[Domain]]
 - [[DB]]
 
+
+- 정적 파일 마운트 [참고](https://fastapi.tiangolo.com/ko/tutorial/static-files/)
 - backgroudtask 사용해보기 [참고](https://fastapi.tiangolo.com/ko/tutorial/background-tasks/)
 - 앱 메타데이터 설정하기 [참고](https://fastapi.tiangolo.com/ko/tutorial/metadata/ )
 - 테스트 작성하기 [참고](https://fastapi.tiangolo.com/ko/tutorial/testing/)
@@ -10,9 +12,15 @@
 - Path, Query, Header, Cookie, Body, Form, File 중 examples과 openapi_examples를 사용해보기   [참고](https://fastapi.tiangolo.com/ko/tutorial/schema-extra-example/)
 - 쿠키 사용하기[참고](https://fastapi.tiangolo.com/ko/tutorial/cookie-params/)
 - JSON이 아닌 방식으로 데이터 받을 때 사용하는 Form() 이용해서 데이터 받기
-- 파일 업로드 - [참고](https://fastapi.tiangolo.com/ko/tutorial/request-files/
+- 파일 업로드 - [참고](https://fastapi.tiangolo.com/ko/tutorial/request-files/)
 - 권한 없는 경우(수정 권한 등) 에러 메시지 표출하기 [참고](https://fastapi.tiangolo.com/ko/tutorial/handling-errors/)
 - response_model, response_description 사용해 문서화
 - jsonable_encoder 사용해서 자료형 변환하기 [참고](https://fastapi.tiangolo.com/ko/tutorial/encoder/)
 - Update [참고](https://fastapi.tiangolo.com/ko/tutorial/body-updates/)
-
+- 도메인 등록(freenom.com)하고 ssl 적용해보기 [참고](https://wikidocs.net/177320)
+- nginx로 웹 서버 설치 [참고](https://wikidocs.net/177311)
+- PostgreSQL [참고](https://wikidocs.net/177321)
+- 비동기 식 sqlite 사용 [참고](https://wikidocs.net/177352)
+- uvicorn background로 실행하기 [참고](https://wikidocs.net/177269)
+- Jenkins/ArgoCD로 CI/CD
+- Config Setting + @lru_cache [참고](https://fastapi.tiangolo.com/ko/advanced/settings/?h=config#__tabbed_6_1)

@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "1d8096530cc3a891",
+        "id": "059847116ab77aaa",
         "type": "tabs",
         "children": [
           {
-            "id": "ce7de06045fba606",
+            "id": "b33161c62de2dc66",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "User.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "9bdf69b49d03b348",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "User.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "User.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "User.md"
+              }
             }
           }
         ]
@@ -138,8 +146,16 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ce7de06045fba606",
+  "active": "b33161c62de2dc66",
   "lastOpenFiles": [
-    "Todo.md"
+    "Domain.md",
+    "Root.md",
+    "Todo.md",
+    "User.md",
+    "Post.md",
+    "Etc..md",
+    "DB.md",
+    "Base.md",
+    "alembic.md"
   ]
 }

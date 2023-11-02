@@ -1,6 +1,11 @@
+# API 명세
+| API 명| URL| 요청방법| 설명 |
+|---|---|---|---|
+|Domain: Post|
+|||||
+
+
 - Create
 - Read
 - File Upload
 - Category(Use Enum)
-- 정적 파일 마운트 https://fastapi.tiangolo.com/ko/tutorial/static-files/
-- 

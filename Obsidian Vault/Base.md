@@ -38,5 +38,5 @@ pip install "python-jose[cryptography]" # to generate and verifiy the JWT tokens
 pip install "passlib[bcrypt]" # to handle password hash(Bcrypt).
 pip install python-multipart # to use forms and receive uploaded files
 pip install sqlalchemy # database
-
+pip instsall alembic # database
 ```

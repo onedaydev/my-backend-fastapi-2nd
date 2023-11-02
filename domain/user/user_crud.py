@@ -1,28 +1,30 @@
 from sqlalchemy.orm import Session
+# from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
+
+from passlib.context import CryptContext
 
 from models import User
 
 from domain.user.user_schema import UserCreate
 
 
-def get_user(db: Session, user_id: int):
-    return db.query(models.User).filter(models.User.id == user_id).first()
+pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 
-def get_user_by_email(db: Session, email: str):
-    return db.query(models.User).filter(models.User.email == email).first()
-
-
-def get_users(db: Session, skip: int=0, limit: int = 100):
-    return db.query(models.User).offset(skip).limit(limit).all()
-
+# C
 
 def create_user(db: Session, user: UserCreate):
-    hashed_paasword = '' # 
-    db_user = models.User(email=user.email, hashed_password = hashed_password)
+    db_user = User(email=user.email, hashed_password = pwd_context.hash(user.password))
     db.add(db_user)
     db.commit()
-    db.refresh(db_user)
+    # db.refresh(db_user)
     return db_user
 
+# R
 
+def get_user(db: Session, user_create: UserCreate):
+    return db.query(User).filter(User.email == user_create.email).first()
+
+# U
+
+# D
