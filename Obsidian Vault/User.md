@@ -4,12 +4,10 @@
 |Domain: User|
 |계정 생성|/user/create|POST||
 |로그인|/user/login|POST||
+||/user/me|GET|토큰 인증 확인|
 
+~~- 계정 생성~~
+~~- OAuth2.0 토큰 인증 과정 구현~~
 - 계정 삭제
 - 비밀번호 변경
-- OAuth2.0 jwt를 활용한다.
-- + 로그인 JWT OAuth2.0 바탕으로 토큰 유효기간 설정하기 [참고](https://fastapi.tiangolo.com/ko/tutorial/security/oauth2-jwt/)
-- 토큰, 토큰 데이터, 유저, 유저(디비) 클래스 생성. pydantic BaseModel 이용)
-
-
-
+- scopes(특정 권한 세트) 더 알아보고 활용해보기 [참고](https://fastapi.tiangolo.com/ko/tutorial/security/oauth2-jwt/#advanced-usage-with-scopes "Permanent link")
