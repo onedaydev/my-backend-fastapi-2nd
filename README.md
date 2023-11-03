@@ -5,7 +5,8 @@
 |회원 가입|/user/create|POST||
 |로그인|/user/login|POST||
 
-acmini app % alembic init migrations# How to Run
+# Run it
+
 1. download requirements
 ```
 pip install -r requirements.txt
