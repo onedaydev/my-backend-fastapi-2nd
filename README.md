@@ -13,9 +13,11 @@ pip install -r requirements.txt
 ```
 
 2. DB init
-Obsidian Vault의 alembic.md 참고
+
+- Obsidian Vault의 alembic.md 참고
 
 3. .env
+
 ```openssl rand -hex 32``` or ```import secrets; secrets.token_hex(32)```로 생성한 key를 사용
 
 

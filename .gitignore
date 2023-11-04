@@ -16,4 +16,5 @@ app.db
 migrations
 alembic.ini
 
+config.py
 

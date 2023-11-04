@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "5c7f7fc8924a25dc",
+        "id": "70b29c53fc6a51c7",
         "type": "tabs",
         "children": [
           {
-            "id": "ef7c96e0d73d5986",
+            "id": "61dc18718436822a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Domain.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Domain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Domain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Domain.md"
+              }
             }
           }
         ]
@@ -138,17 +146,17 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ef7c96e0d73d5986",
+  "active": "61dc18718436822a",
   "lastOpenFiles": [
-    "alembic.md",
-    "Base.md",
-    "Daily Record.md",
     "DB.md",
-    "Domain.md",
-    "Etc..md",
-    "Post.md",
+    "alembic.md",
+    "Daily Record.md",
     "Root.md",
+    "User.md",
     "Todo.md",
-    "User.md"
+    "Post.md",
+    "Domain.md",
+    "Setting.md",
+    "Etc..md"
   ]
 }

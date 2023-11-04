@@ -1,11 +1,8 @@
-- [[Base]]
-- [[Domain]]
-- [[DB]]
+[[Daily Record]]
+[[Domain]]
+[[DB]]
 
-
-- 정적 파일 마운트 [참고](https://fastapi.tiangolo.com/ko/tutorial/static-files/)
 - backgroudtask 사용해보기 [참고](https://fastapi.tiangolo.com/ko/tutorial/background-tasks/)
-- 앱 메타데이터 설정하기 [참고](https://fastapi.tiangolo.com/ko/tutorial/metadata/ )
 - 테스트 작성하기 [참고](https://fastapi.tiangolo.com/ko/tutorial/testing/)
 - 디버깅 파일 작성하기 [참고](https://fastapi.tiangolo.com/ko/tutorial/debugging/)
 - body로 받아오는 파라미터 객체에 pydantic의 BaseModel을 상속받은 객체 선언하고 각 변수에 Field 사용으로 validation 설정하기
@@ -22,5 +19,5 @@
 - PostgreSQL [참고](https://wikidocs.net/177321)
 - 비동기 식 sqlite 사용 [참고](https://wikidocs.net/177352)
 - uvicorn background로 실행하기 [참고](https://wikidocs.net/177269)
+- Dockerfile 작성
 - Jenkins/ArgoCD로 CI/CD
-- Config Setting + @lru_cache [참고](https://fastapi.tiangolo.com/ko/advanced/settings/?h=config#__tabbed_6_1)

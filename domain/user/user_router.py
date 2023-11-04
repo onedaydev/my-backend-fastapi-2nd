@@ -12,11 +12,11 @@ from dependencies import get_db
 from domain.user import user_schema, user_crud
 from domain.user.user_crud import pwd_context
 
+from config import settings
 
-# Config로 값 불러오는 것으로 바꿀 것 (!)
-ACCESS_TOKEN_EXPIRE_MINUTES = 60
-SECRET_KEY = 'test'
-ALGORITHM = "HS256"
+ACCESS_TOKEN_EXPIRE_MINUTES = settings.ACCESS_TOKEN_EXPIRE_MINUTES
+SECRET_KEY = settings.SECRET_KEY
+ALGORITHM = settings.ALGORITHM
 
 
 router = APIRouter(
