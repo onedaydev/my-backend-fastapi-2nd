@@ -2,7 +2,6 @@
 [[Domain]]
 [[DB]]
 
-- backgroudtask 사용해보기 [참고](https://fastapi.tiangolo.com/ko/tutorial/background-tasks/)
 - 테스트 작성하기 [참고](https://fastapi.tiangolo.com/ko/tutorial/testing/)
 - 디버깅 파일 작성하기 [참고](https://fastapi.tiangolo.com/ko/tutorial/debugging/)
 - body로 받아오는 파라미터 객체에 pydantic의 BaseModel을 상속받은 객체 선언하고 각 변수에 Field 사용으로 validation 설정하기

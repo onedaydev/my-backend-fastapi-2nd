@@ -2,6 +2,8 @@ from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 from domain.user import user_router
+from domain.backgroundtasks import backgroundtasks_router
+from domain.upload_file import file_upload_router
 
 tags_metadata = [
     {
@@ -33,6 +35,9 @@ app = FastAPI(
 
 
 app.include_router(user_router.router)
+app.include_router(backgroundtasks_router.router)
+app.include_router(file_upload_router.router)
+
 
 app.mount("/assets",StaticFiles(directory="front/assets")) 
 

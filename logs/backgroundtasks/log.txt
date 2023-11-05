@@ -1,0 +1,1 @@
+notification for test@test.com: test message
