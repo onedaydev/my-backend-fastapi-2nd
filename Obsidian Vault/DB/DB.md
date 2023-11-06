@@ -1,0 +1,2 @@
+- [[alembic]](database migration tool)
+- 비동기 식 sqlite 사용 [참고](https://wikidocs.net/177352)

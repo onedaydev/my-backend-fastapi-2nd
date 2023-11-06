@@ -1,0 +1,2 @@
+- Dockerfile 작성
+- Jenkins/ArgoCD로 CI/CD

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "70b29c53fc6a51c7",
+        "id": "6ee4e2c6474fbca0",
         "type": "tabs",
         "children": [
           {
-            "id": "61dc18718436822a",
+            "id": "6fa555ef764e5028",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Record.md",
+                "file": "DB/alembic.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Record.md",
+                "file": "DB/alembic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Record.md",
+                "file": "DB/alembic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Record.md"
+                "file": "DB/alembic.md"
               }
             }
           }
@@ -146,16 +146,27 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "61dc18718436822a",
+  "active": "6fa555ef764e5028",
   "lastOpenFiles": [
-    "Root.md",
-    "User.md",
-    "Todo.md",
-    "Post.md",
-    "Domain.md",
-    "DB.md",
     "Daily Record.md",
-    "alembic.md",
+    "Domain/Post.md",
+    "무제 파일.md",
+    "Domain/Domain.md",
+    "Domain/Backgroundtasks.md",
+    "Domain/User.md",
+    "Domain/Upload file.md",
+    "App - Root.md",
+    "CI&CD/CI&CD.md",
+    "DB/DB.md",
+    "DB/alembic.md",
+    "DB/MySQL.md",
+    "DB/PostgreSQL.md",
+    "Subject.md",
+    "Domain/backgroundtasks 1.md",
+    "CI&CD",
+    "DB/무제 파일 1.md",
+    "DB",
+    "Domain",
     "Setting.md",
     "Etc..md"
   ]

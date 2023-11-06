@@ -1,8 +1,0 @@
-[[alembic]]
-- sqlite
-
-
-- MySQL
-
-
-- PostgreSQL

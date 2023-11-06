@@ -21,3 +21,5 @@ alembic revision --autogenerate
 alembic upgrade head
 ```
 
+
+- [alembic docs](https://alembic.sqlalchemy.org/en/latest/tutorial.html)
