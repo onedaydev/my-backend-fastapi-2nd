@@ -4,6 +4,7 @@
 __pycache__
 
 .env
+.venv
 
 internal
 
@@ -18,3 +19,4 @@ alembic.ini
 
 config.py
 
+.pytest_cache

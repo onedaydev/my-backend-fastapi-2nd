@@ -21,3 +21,6 @@ class PostCreate(BaseModel):
             raise ValueError("Null Value Error")
         return v
 
+class PostList(BaseModel):
+    total: int = 0
+    post_list: list[Post] = []
