@@ -1,4 +1,3 @@
 - [[Daily Record]]
 - [[Domain]]
 - [[DB]]
-- [[CI&CD]]

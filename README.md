@@ -4,6 +4,8 @@
 |Domain: User|
 |회원 가입|/user/create|POST||
 |로그인|/user/login|POST||
+|Domain: Post|
+
 
 # Run it
 
@@ -16,8 +18,8 @@ pip install -r requirements.txt
 
 - Obsidian Vault의 alembic.md 참고
 
-3. .env
+3. config.py
 
-```openssl rand -hex 32``` or ```import secrets; secrets.token_hex(32)```로 생성한 key를 사용
+- secret key 생성 및 할당
 
 

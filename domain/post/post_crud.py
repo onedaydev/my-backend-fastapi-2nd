@@ -2,10 +2,8 @@ from datetime import datetime
 
 from models import User, Post
 from domain.post import post_schema
-from domain.user import user_schema
 from sqlalchemy.orm import Session
 
-# C
 
 def create_post(db: Session, post_create: post_schema.PostCreate, user: User):
     db_post = Post(
@@ -17,7 +15,6 @@ def create_post(db: Session, post_create: post_schema.PostCreate, user: User):
     db.add(db_post)
     db.commit()
 
-# R
 
 def get_post_list(db: Session,
                 skip: int = 0,
@@ -35,6 +32,19 @@ def get_post_list(db: Session,
 
     return total, post_list
 
-# U
 
-# D
+def get_post(db: Session, post_id: int):
+    post = db.query(Post).get(post_id)
+    return post
+
+
+def update_post(db: Session, db_post: Post, post_update: post_schema.PostUpdate):
+    db_post.title = post_update.title
+    db_post.content = post_update.content
+    db.add(db_post)
+    db.commit()
+
+
+def delete_post(db: Session, db_post: Post):
+    db.delete(db_post)
+    db.commit()

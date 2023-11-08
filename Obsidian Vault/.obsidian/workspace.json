@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Domain/Post.md",
+                "file": "Daily Record.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Domain/Post.md",
+                "file": "Daily Record.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Domain/Post.md",
+                "file": "Daily Record.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Domain/Post.md"
+                "file": "Daily Record.md"
               }
             }
           }
@@ -148,17 +148,17 @@
   },
   "active": "6fa555ef764e5028",
   "lastOpenFiles": [
-    "Domain/Domain.md",
     "App - Root.md",
-    "Daily Record.md",
-    "DB/alembic.md",
-    "Domain/Post.md",
-    "무제 파일.md",
-    "Domain/Backgroundtasks.md",
-    "Domain/User.md",
-    "Domain/Upload file.md",
-    "CI&CD/CI&CD.md",
     "DB/DB.md",
+    "DB/alembic.md",
+    "Domain/Backgroundtasks.md",
+    "Domain/Domain.md",
+    "Domain/Post.md",
+    "Domain/Upload file.md",
+    "Domain/User.md",
+    "Daily Record.md",
+    "CI&CD/CI&CD.md",
+    "무제 파일.md",
     "DB/MySQL.md",
     "DB/PostgreSQL.md",
     "Subject.md",

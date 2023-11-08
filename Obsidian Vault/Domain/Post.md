@@ -1,15 +1,8 @@
 # API 명세
-| API 명| URL| 요청방법| 설명 |
-|---|---|---|---|
-|글 작성|/post/create|POST||
-
-
-
-- Read
-- Update [참고](https://fastapi.tiangolo.com/ko/tutorial/body-updates/)
-- Path, Query, Header, Cookie, Body, Form, File 중 examples과 openapi_examples를 사용해보기   [참고](https://fastapi.tiangolo.com/ko/tutorial/schema-extra-example/)
-- 쿠키 사용하기[참고](https://fastapi.tiangolo.com/ko/tutorial/cookie-params/)
-- JSON이 아닌 방식으로 데이터 받을 때 사용하는 Form() 이용해서 데이터 받기
-- 권한 없는 경우(수정 권한 등) 에러 메시지 표출하기 [참고](https://fastapi.tiangolo.com/ko/tutorial/handling-errors/)
-- jsonable_encoder 사용해서 자료형 변환하기 [참고](https://fastapi.tiangolo.com/ko/tutorial/encoder/)
-- body로 받아오는 파라미터 객체에 pydantic의 BaseModel을 상속받은 객체 선언하고 각 변수에 Field 사용으로 validation 설정하기
+| API 명|URL|Method|Description|
+|------------|:-:|:-:|:-|
+|create|/post/create|POST||
+|list|/post/list|GET|paging을 위한 page, limit 변수와 검색을 위한 keyworkd 변수 할당|
+|read|/post/{}|GET||
+|modify|/post/modify|PUT||
+|delete|/post/delete||| 
